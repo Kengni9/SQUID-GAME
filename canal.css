@@ -1,0 +1,31 @@
+.bold{
+    font-weight: bold;
+}
+h1{
+    background-color:beige;
+    background-size: contain;
+    text-shadow: 10px 7px 6px black;
+    animation-duration: 5s;
+    animation-name: titre;
+    animation-timing-function:ease-in-out;
+}
+@keyframes titre {
+    0%{
+        margin-left: 20%;
+        width: 200%;
+    }
+    50%{
+        margin-right: 100%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+        img{display: list-item;}
+    }
+body{
+    background-image: url(53e0bee6331af7fa51875f118334616f.png);
+}
